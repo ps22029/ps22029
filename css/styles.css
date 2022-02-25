@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    padding: 10px;
+    background: rgb(4, 156, 85);
+}
+/* header/blog title */
+.header{
+    padding: 15px;
+    text-align: center;
+    background: hsl(147, 74%, 42%);
+    color: #860404;
+}
+.header h1{
+    font-size: 40px;
+}
+.header p{
+    font-size: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    padding: 5px;
+    background: white;
+}
+/*style the top navigation bar */
+.topav{
+    overflow: hidden;
+    background-color: rgb(143, 5, 5);
+}
+/* Định dạng link điều hướng */
+.topav a{
+    float: left;
+    display: block;
+    color: hsl(56, 87%, 44%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topav a:hover{
+    background-color: rgb(11, 220, 235);
+    color: rgb(199, 7, 119);
+}
+/* Tạo hai cột không bằng nhau, float cạnh nhau */
+/* cột trái */
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+/* cột phải */
+.rightcolumn{
+    padding: 2%;
+     margin: 1%;
+    float: right;
+    width: 25%;
+    background-color: white;
+    padding-left: 20px;
+    text-align: center;
+}
+/* Hình ảnh bài viết*/
+.images {
+    width: 230px;
+    height: 150px;
+    text-align: center;
+}
+/* Thêm định dạng thẻ cho bài viết */
+.card-news {
+     width: 30%;
+     background-color: rgb(207, 245, 230);
+     padding: 1%;
+     margin: 1%;
+     float: left;
+}
+.card-news:hover{
+    background-color: hsl(0, 40%, 84%);
+}
+/* clear float khác sau các cột */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Tạo hai cột không bằng nhau,float cạnh nhau*/
+/* Cột trái*/
+.leftcolumn{
+    float: left;
+    width: 70%;
+}
+/* Cột phải */
+.righcolumn{
+    float: left;
+    width: 70%;
+    background-color: none;
+    padding-left: 10px;
+}
+/* thêm định dạng thẻ nội dung thêm */
+.card{
+    text-align: center;
+    padding: 2%;
+     margin: 1%;
+    float: right;
+    background-color: #eeeeee;
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+}
+/* footer */
+.column{
+    width: 25%;
+}
+footer{
+    width: 100%;
+    background: rgb(204, 8, 145);
+    color: fuchsia;
+}
+footer.footer.item{
+    width: 100%;
+    display: inline-block;
+}
+footer.footer.item h3{
+    margin: 10px 20px;
+}
+footer.linka{
+    display: block;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: rgb(98, 196, 199);
+}
+.footer{
+    color: red;
+    padding: 10px;
+    text-align: center;
+    background: #dfbad5;
+    margin-top: 10px;
+}

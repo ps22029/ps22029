@@ -1,0 +1,211 @@
+body {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+.danhsachsp{
+    text-align: center;
+    padding: 2%;
+     margin: 1%;
+    float: none;
+    background-color: #eeeeee;
+    float: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+.danhsachsp.hang.wrapped4 {
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    height: 300px;
+    float: left;
+    display: flex;
+    clear: both;
+}
+.danhsachsp.righcolumn.wrapped4{
+    float: right;
+    width: 70%;
+    background-color: none;
+    padding-left: 10px;
+}
+
+.wrapped4 .sanpham {
+    display: inline-block;
+    align-content: center;
+    width: 100%;
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgb(63, 63, 63);
+}
+
+.wrapped4 img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.iconmuahang {
+    background-color: #05408d;
+    width: 80%;
+    height: 25px;
+    color: #eee;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 25px;
+}
+
+.iconmuahang:hover {
+    font-weight: bold;
+}
+
+.dangkynhantin {
+    clear: both;
+    background-color: #05408d;
+    width: 100%;
+    height: 160px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1px;
+}
+
+h1 {
+    padding-top: 5px;
+}
+
+.image1 {
+    margin-left: 300px;
+}
+
+.image2 {
+    float: right;
+    margin-left: 300px;
+}
+
+.dangkynhantin .input-button {
+    clear: both;
+    display: flex;
+    width: 30%;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.dangkynhantin .input-button input {
+    width: 20%;
+    flex: 1;
+    padding: 5 px;
+    background-color: white;
+}
+
+.dangkynhantin .input-button button {
+    background-color: #FF9D0A;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.khauhieu {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.lienhe {
+    margin-right: 20px;
+    float: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.lienhe>img {
+    width: 50px;
+    height: 50px;
+    padding-right: 2px;
+    margin-bottom: 0px;
+}
+
+.container header .lienhe a {
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    float: right;
+    text-align: center;
+}
+
+.container header .lienhe a:hover {
+    color: #05408d;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.container nav .simple-search {
+    float: right;
+    width: 20%;
+    display: flex;
+    position: relative;
+}
+
+.container nav .simple-search button {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #05408d;
+    margin-right: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 3px;
+    float: right;
+}
+
+.container nav .simple-search button img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.column3 {
+    width: 90%;
+    height: auto;
+}
+
+.iconmuahang:hover {
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container article .reference a:hover {
+    text-decoration: underline;
+    color: #05408d;
+}
+
+.container article .tonghoplistsp .checkboxsp hr {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: solid;
+    color: #05408d;
+    margin-right: auto;
+    margin-left: auto;
+}
+

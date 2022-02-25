@@ -1,0 +1,86 @@
+.lienhevamap {
+    width: 100%;
+    display: inline-flex;
+}
+
+.lienhevamap .lienhe {
+    float: left;
+    width: calc(45% - 5px);
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.lienhevamap .lienhe .tieudelienhe {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lienhevamap .map .tieudemap {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.thongtindangnhap {
+    width: 100%;
+}
+
+.thongtindangnhap input {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.thongtindangnhap textarea {
+    width: 100%;
+    margin-top: 2px;
+}
+
+.thongtindangnhap hr {
+    float: left;
+    margin-top: 0px;
+    width: calc(100% - 150px);
+    margin-bottom: 10px;
+    color: #05408d;
+}
+
+.lienhevamap .map {
+    width: 55%;
+    float: right;
+    margin-top: 5px;
+    text-align: right;
+}
+
+
+.tieudelienhecon {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.form-group {
+    float: left;
+    width: 75%;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.buttonlienhe {
+    clear: both;
+    background-color: #05408d;
+    color: azure;
+    text-align: center;
+    width: 45%;
+    height: 40px;
+    line-height: 35px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
